@@ -1,0 +1,9 @@
+# Maven build output
+target/
+
+# Ignore everything under docs by default
+docs/*
+
+# Keep the images folder and its contents in git
+!docs/images/
+!docs/images/**
