@@ -131,10 +131,10 @@ It is not a substitute for JMH or for production-grade latency analysis. Results
 
 ## Key Classes
 
-- [BoundedRingBuffer.java](/D:/Workspace/Private/PersonalGit/ringbuffer-backpressure-demo/src/main/java/com/example/ringbufferbackpressure/buffer/BoundedRingBuffer.java): fixed-size circular buffer with `BLOCK` and `DROP`
-- [RingBufferIngestionService.java](/D:/Workspace/Private/PersonalGit/ringbuffer-backpressure-demo/src/main/java/com/example/ringbufferbackpressure/core/RingBufferIngestionService.java): metrics-aware wrapper around the ring buffer
-- [SimulationRunner.java](/D:/Workspace/Private/PersonalGit/ringbuffer-backpressure-demo/src/main/java/com/example/ringbufferbackpressure/demo/SimulationRunner.java): concurrent producer and consumer workload used by the demo
-- [IngestionBenchmark.java](/D:/Workspace/Private/PersonalGit/ringbuffer-backpressure-demo/src/main/java/com/example/ringbufferbackpressure/benchmark/IngestionBenchmark.java): lightweight benchmark comparison against `ArrayBlockingQueue`
+- [BoundedRingBuffer.java](src/main/java/com/example/ringbufferbackpressure/buffer/BoundedRingBuffer.java): fixed-size circular buffer with `BLOCK` and `DROP`
+- [RingBufferIngestionService.java](src/main/java/com/example/ringbufferbackpressure/core/RingBufferIngestionService.java): metrics-aware wrapper around the ring buffer
+- [SimulationRunner.java](src/main/java/com/example/ringbufferbackpressure/demo/SimulationRunner.java): concurrent producer and consumer workload used by the demo
+- [IngestionBenchmark.java](src/main/java/com/example/ringbufferbackpressure/benchmark/IngestionBenchmark.java): lightweight benchmark comparison against `ArrayBlockingQueue`
 
 ## Trade-Off Summary
 
